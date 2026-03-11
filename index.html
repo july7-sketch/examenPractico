@@ -42,17 +42,70 @@
     </nav>
 
 
-    <!-- HERO -->
+    <!-- HERO CAROUSEL -->
 
-    <section class="hero text-center text-white">
+    <section class="hero">
 
-        <div class="container">
+        <div id="heroCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
 
-            <h1 class="display-3 fw-bold">iPhone 15</h1>
+            <div class="carousel-inner">
 
-            <p class="lead">Titanium. So strong. So light. So Pro.</p>
+                <div class="carousel-item active">
 
-            <a href="#" class="btn btn-light btn-lg">Learn More</a>
+                    <img src="https://i.pinimg.com/736x/3f/73/42/3f7342a5dc2c3edf11e924f7f09b6ddf.jpg"
+                        class="d-block w-100 hero-img">
+
+                    <div class="carousel-caption">
+
+                        <h1 class="display-3 fw-bold">iPhone 15</h1>
+                        <p class="lead">Titanium. So strong. So light. So Pro.</p>
+
+                        <a href="#" class="btn btn-light btn-lg">Learn More</a>
+
+                    </div>
+
+                </div>
+
+
+                <div class="carousel-item">
+
+                    <img src="https://www.apple.com/newsroom/videos/iphone-15-pro-action-button/posters/Apple-iPhone-15-Pro-lineup-Action-button-230912.jpg.large_2x.jpg"
+                        class="d-block w-100 hero-img">
+
+                    <div class="carousel-caption">
+
+                        <h1 class="display-3 fw-bold">Powerful Performance</h1>
+                        <p class="lead">Experience the speed of the A17 chip.</p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="carousel-item">
+
+                    <img src="https://www.apple.com/newsroom/images/2023/09/apple-unveils-iphone-15-pro-and-iphone-15-pro-max/tile/Apple-iPhone-15-Pro-lineup-hero-230912.jpg.landing-big_2x.jpg"
+                        class="d-block w-100 hero-img">
+
+                    <div class="carousel-caption">
+
+                        <h1 class="display-3 fw-bold">Amazing Camera</h1>
+                        <p class="lead">Capture every moment in stunning detail.</p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+
+            <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
 
         </div>
 
@@ -122,35 +175,6 @@
 
 
 
-    <!-- GALLERY -->
-
-    <section class="gallery">
-
-        <div class="container">
-
-            <h2 class="text-center mb-5">Design</h2>
-
-            <div class="row g-4">
-
-                <div class="col-md-4">
-                    <img src="https://images.unsplash.com/photo-1603899123151-6c3d9f2b2d40" class="img-fluid rounded">
-                </div>
-
-                <div class="col-md-4">
-                    <img src="https://images.unsplash.com/photo-1598327105666-5b89351aff97" class="img-fluid rounded">
-                </div>
-
-                <div class="col-md-4">
-                    <img src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9" class="img-fluid rounded">
-                </div>
-
-            </div>
-
-        </div>
-
-    </section>
-
-
 
     <!-- CTA -->
 
@@ -160,7 +184,7 @@
 
             <h2>Get your iPhone today</h2>
 
-            <a href="#" class="btn btn-dark btn-lg mt-3">Buy Now</a>
+            <a href="#" class="btn btn-light btn-lg mt-3">Buy Now</a>
 
         </div>
 
