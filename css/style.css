@@ -1,0 +1,60 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    background: #f5f5f7;
+}
+
+
+/* HERO */
+
+.hero {
+    background: url("https://images.unsplash.com/photo-1601784551446-20c9e07cdbdb") center/cover no-repeat;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* FEATURES */
+
+.features {
+    padding: 80px 0;
+    background: white;
+}
+
+.feature-card {
+    padding: 30px;
+    border-radius: 12px;
+    background: #f5f5f7;
+    transition: 0.3s;
+}
+
+.feature-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+
+/* GALLERY */
+
+.gallery {
+    padding: 80px 0;
+}
+
+
+/* CTA */
+
+.cta {
+    padding: 80px 0;
+    background: black;
+    color: white;
+}
+
+
+/* FOOTER */
+
+.footer {
+    padding: 20px;
+    background: #111;
+    color: #aaa;
+}
